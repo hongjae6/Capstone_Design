@@ -10,8 +10,8 @@
 * python 3.7
   * numpy, pandas, pyplot 활용
   * Machine Learning 도구는 다음중 하나를 선택한다.
-  1. fast.ai pytorch based on pytorch
-  2. keras in tensorflow
+    1. fast.ai based on pytorch
+    2. keras in tensorflow
 
 
 ### 어떤 작업을 해야하는가?
