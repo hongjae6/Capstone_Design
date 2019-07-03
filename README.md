@@ -33,3 +33,9 @@
 결론적으로 태풍의 이동경로는 지상 뿐만 아니라 상층의 기상상황을 파악해야하며, 해수면온도 등 태풍의 순환과 관련된 사항을 종합적으로 고려해야 합니다
 * 기상청 태풍 진로 예측 방법 : http://web.kma.go.kr/notify/epeople/faq.jsp?mode=view&num=115
 * 태풍이란? : http://www.weather.go.kr/weather/typoon/knowledge_01.jsp
+
+* 기상자료개방포털 
+  * https://data.kma.go.kr/cmmn/main.do
+
+### 참조
+- 
