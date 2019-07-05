@@ -20,7 +20,4 @@
 ## How to deploy it?
   1. Collect Datasets 
   2. Analysis in fastai
-  3. bulid a app (or web)
-
- #### 개발 방법
-  * 파이썬을 이용한 웹앱 개발
+  3. bulid a app (or web) with python
