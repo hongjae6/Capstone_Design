@@ -16,7 +16,23 @@
 ### ImageNet 검색
 > http://www.image-net.org/ -> search plant
 
+### kaggle edible-wild-plants
+> https://www.kaggle.com/gverzea/edible-wild-plants
+
+### plant image analysis
+> https://www.plant-image-analysis.org/dataset/plant-database
+
+### garden.org
+> https://garden.org/plants/group/dogwoods/
+
+### houseplant wikipedia
+> https://en.wikipedia.org/wiki/Houseplant
+
+### shutterstock
+> https://www.shutterstock.com/ko/search/indoor+plants
+
 ## How to deploy it?
   1. Collect Datasets 
   2. Analysis in fastai
   3. bulid a app (or web) with python
+
