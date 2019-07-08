@@ -37,9 +37,13 @@
 * 기상자료개방포털 
   * https://data.kma.go.kr/cmmn/main.do
 
-### 천리안 위성 자료
+### 천리안 위성 자료 : 합성영상, 적외 강조, 적외1, 단파적외, 수증기
 ![Alt text](image/comsmile2caa201907022345.png)
 ![Alt text](image/comsmile2clda201907022345.thn.png)
 ![Alt text](image/comsmile2cota201907022345.thn.png)
 ![Alt text](image/comsmile2cpa201907022345.thn.png)
 ![Alt text](image/comsmile2cta201907022345.png)
+
+### 레이더 합성장 자료
+
+![Alt text](image/RDR_CMI_201907021855.png)
