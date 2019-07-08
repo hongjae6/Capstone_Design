@@ -37,5 +37,9 @@
 * 기상자료개방포털 
   * https://data.kma.go.kr/cmmn/main.do
 
-### 참조
-- 
+### 천리안 위성 자료
+![Alt text](/image/comsmile2caa201907022345)
+![Alt text](/image/comsmile2clda201907022345.thn)
+![Alt text](/image/comsmile2cota201907022345.thn)
+![Alt text](/image/comsmile2cpa201907022345.thn)
+![Alt text](/image/comsmile2cta201907022345)
