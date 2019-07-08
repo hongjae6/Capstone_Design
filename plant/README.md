@@ -28,6 +28,82 @@
 ### houseplant wikipedia
 > https://en.wikipedia.org/wiki/Houseplant
 
+#### List of houseplant in en.wikipedia
+```
+Tropical and subtropical
+Aglaonema (Chinese Evergreen)
+Alocasia
+Anthurium
+Aphelandra squarrosa (Zebra Plant)
+Araucaria heterophylla (Norfolk Island Pine)
+Asparagus aethiopicus (Asparagus Fern)
+Aspidistra elatior (Cast Iron Plant)
+Begonia species and cultivars
+Bromeliaceae (Bromeliads)
+Calathea (Prayer plants)
+Chamaedorea elegans (Parlor Palm)
+Dypsis lutescens (Areca Palm)
+Chlorophytum comosum (Spider Plant)
+Citrus, compact cultivars such as the Meyer Lemon
+Cyclamen
+Dracaena
+Dieffenbachia (Dumbcane)
+Epipremnum aureum (Golden Pothos)
+Ficus benjamina (Weeping Fig)
+Ficus elastica (Rubber Plant)
+Ficus lyrata (Fiddle-leaf Fig)
+Hippeastrum
+Hoya species
+Mimosa pudica (Sensitive Plant)
+Nephrolepis exaltata cv. Bostoniensis (Boston Fern)
+Orchidaceae (The orchids)
+Cattleya and intergeneric hybrids thereof (e.g. Brassolaeliocattleya, Sophrolaeliocattleya)
+Cymbidium
+Dendrobium
+Miltoniopsis
+Oncidium
+Paphiopedilum
+Phalaenopsis
+Peperomia species
+Philodendron species
+Maranta (The Prayer Plants)
+Monstera (Swiss Cheese Plant)
+Saintpaulia (African violet)
+Sansevieria trifasciata (Mother-inlaw's tongue)
+Schefflera arboricola (Umbrella Plant)
+Sinningia speciosa (Gloxinia)
+Spathiphyllum (Peace Lily)
+Stephanotis floribunda (Madagascar Jasmine)
+Tradescantia zebrina (Purple Wandering Jew)
+Pilea peperomioides
+Scindapsus pictus (Satin pothos)
+Yucca species
+Succulents
+Note: Many of these plants are also tropical or subtropical.
+
+Aloe vera
+Cactaceae (Cacti)
+Epiphyllum (Orchid Cacti)
+Mammillaria
+Opuntia (Large genus that includes the Prickly Pear)
+Zygocactus (Christmas Cactus)
+Gymnocalycium mihanovichii (Chin Cactus)
+Crassula ovata (Jade Plant)
+Echeveria
+Haworthia
+Senecio rowleyanus (String of Pearls)
+Forced bulbs
+Note: Many forced bulbs are also temperate.
+
+Crocus
+Hyacinthus (Hyacinth)
+Narcissus (genus) (Narcissus or Daffodil)
+Temperates
+Hedera helix (English Ivy)
+Saxifraga stolonifera (Strawberry Begonia)
+ ```
+
+
 ### shutterstock
 > https://www.shutterstock.com/ko/search/indoor+plants
 
@@ -35,4 +111,3 @@
   1. Collect Datasets 
   2. Analysis in fastai
   3. bulid a app (or web) with python
-
