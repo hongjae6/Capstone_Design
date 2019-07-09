@@ -32,7 +32,7 @@ for i in file_list:
   fl_name = ''.join(fl_)
   print(fl_name)
   # 파일 이름 추출 확인을 위한 함수
-  fd(fl_name, i)
+  file_name_verify(fl_name, i)
   # 파일 및 폴더 설정
   folder = fl_name
   file = i
