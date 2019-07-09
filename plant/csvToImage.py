@@ -3,7 +3,7 @@ from fastai.vision import *
 # 현재 참조하는 디렉토리의 리스트 불러오기
 import os
 
-path = "./images"
+path = "./images" # csv 파일이 들어있는 경로 설정
 file_list = os.listdir(path)
 
 print ("file_list: {}".format(file_list))
