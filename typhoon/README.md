@@ -9,9 +9,8 @@
 ### 언어 사양
 * python 3.7
   * numpy, pandas, pyplot 활용
-  * Machine Learning 도구는 다음중 하나를 선택한다.
-    1. torch(python, fastai)
-    2. tensorflow-gpu(keras)
+  * Machine Learning, torch(python, fastai)
+  * (모델을 직접 작성할 경우) tensorflow-gpu(keras)
 
 
 ### 어떤 작업을 해야하는가?
