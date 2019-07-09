@@ -39,6 +39,6 @@ for i in file_list:
   
   download_files(fl_name, i)
   # 정상적인 파일인지 확인
-  for c in range(1000):
-    print(c)
-    verify_images(path/c, delete=True, max_size=1000)
+  #for c in range(1000):
+  #  print(c)
+  #  verify_images(path/c, delete=True, max_size=1000)
