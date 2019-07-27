@@ -176,3 +176,37 @@ Wood Sorrel
   1. Collect Datasets 
   2. Analysis in fastai
   3. bulid a app (or web) with python
+
+
+
+---
+ # Web App
+1.  개요
+
+
+2. 동작 환경
+    - 환경: python 3.7.3, pytorch 1.1.0, fastai 1.0.55, flask 1.0.2
+    - 개발 IDE : PyCharm 2019.2 (Professional)
+
+3. 파일 구조 : [Github 참조](https://github.com/dspanah/Skin-Cancer-Detection-TransferLearning-Fastai-Flask)
+
+![tree](mdpicture/directory_tree.jpg)
+flask 파일 
+- plant/models : 백업용 모델 저장
+- plant/src : 실행 파일이 있는 곳
+  - plant/src/models : 실제 실행하는 모델
+  - plant/src/static : 웹의 디자인, js 파일이 저장되있는 폴더
+  - plant/src/templates : html 파일이 있는 폴더
+  - plant/src/app.py : 실제 실행하는 .py 파일
+
+4. 실행 결과
+
+![main](mdpicture/webserver_main.jpg)
+메인화면
+
+![result_Dracaena](mdpicture/result_Dracaena.jpg)
+예측된 결과가 정상적으로 나오는 모습
+
+![result_Saintpaulia](mdpicture/result_Saintpaulia.jpg)
+예측된 결과가 정상적으로 나오는 모습2
+
