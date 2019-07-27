@@ -189,6 +189,7 @@ Wood Sorrel
     - 개발 IDE : PyCharm 2019.2 (Professional)
 
 3. 파일 구조 : [Github 참조](https://github.com/dspanah/Skin-Cancer-Detection-TransferLearning-Fastai-Flask)
+
 ![tree](mdpicture/directory_tree.jpg)
 flask 파일 
 - plant/models : 백업용 모델 저장
