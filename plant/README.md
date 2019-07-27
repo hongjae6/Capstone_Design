@@ -186,9 +186,9 @@ Wood Sorrel
 
 2. 동작 환경
     - 환경: python 3.7.3, pytorch 1.1.0, fastai 1.0.55, flask 1.0.2
-    - 
+    - 개발 IDE : PyCharm 2019.2 (Professional)
 
-3. 파일 구조
+3. 파일 구조 : [Github 참조](https://github.com/dspanah/Skin-Cancer-Detection-TransferLearning-Fastai-Flask)
 ![tree](mdpicture/directory_tree.jpg)
 flask 파일 
 - plant/models : 백업용 모델 저장
@@ -203,4 +203,9 @@ flask 파일
 ![main](mdpicture/webserver_main.jpg)
 메인화면
 
-![result_image](mdpicture/result_Dracaena.jpg)
+![result_Dracaena](mdpicture/result_Dracaena.jpg)
+예측된 결과가 정상적으로 나오는 모습
+
+![result_Saintpaulia](mdpicture/result_Saintpaulia.jpg)
+예측된 결과가 정상적으로 나오는 모습2
+
