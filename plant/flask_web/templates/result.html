@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<html>
+
+<body>
+  <p>예측한 식물 종류: <b>{{result.get("class")}}</b></p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">식물 종류</th>
+      <th scope="col">확률</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%for i in range(0, 0)%}
+    <tr>
+      <th scope="row">{{result.get("probs")[i][0]}}</th>
+      <!--<td>{{result.get("probs")[i][1]}}</td>-->
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+</body>
+<figure class="figure">
+  <img src="data:image/png;base64, {{result.get("image")}}" class="figure-img img-thumbnail input-image">
+</figure>
+
+</html>
+
+{% endblock %}
