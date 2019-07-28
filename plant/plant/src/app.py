@@ -103,10 +103,11 @@ def model_predict(img):
     img = open_image(BytesIO(img))
     pred_class,pred_idx,outputs = learn.predict(img)
     formatted_outputs = ["{:.1f}%".format(value) for value in [x * 100 for x in torch.nn.functional.softmax(outputs, dim=0)]]
-    pred_probs = sorted(
-            zip(learn.data.classes, map(str, formatted_outputs)),
-            key=lambda p: p[1],
-            reverse=True)
+    pred_probs = sorted( # 정렬 함수
+            zip(learn.data.classes, #동일한 개수로 이루어진 자료형을 묶는 역할
+                map(str, formatted_outputs)), # 1번 데이터를 이용하여 0번 데이터 함수 실행
+            key=lambda p: p[1], #정렬 함수의 정렬 목적으로 사용할 키를 반환
+            reverse=True) # 오름차순 혹은 내림차순 정렬
     img_data = encode(img)
 
     result = {"class":pred_class, "probs":pred_probs, "image":img_data}
