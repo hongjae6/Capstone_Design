@@ -1,62 +1,62 @@
-﻿name_EN,name_KR,effect,toxicity(H),toxicity(H_effect),toxicity(P),toxicity(P_effect)
-Aglaonema,아글라오네마,공기정화,ㅇ,,ㅇ,
-Alocasia,알로카시아,공기정화,ㅇ,"통증유발, 호흡곤란",ㅇ,경련
-Aloe vera,알로에 베라,약용식물,ㅇ, 암 또는 생식 독성  유발,ㅇ,설사
-Anthurium,안스리움,공기정화,ㅇ,"구강자극, 구토, 피부발진",ㅇ,"위장장애, 호흡곤란"
-Aphelandra squarrosa,아펠란드라,공기정화,ㅇ,,ㅇ,
-Araucaria heterophylla,아라우카리아,공기정화,x,,x,
-Asparagus aethiopicus,아스파라거스 ,이뇨작용,ㅇ,"구토, 설사, 복통",x,
-Aspidistra elatior,엽란,공기정화,ㅇ,,,
-Begonia,베고니아,"뇌질환 예방, 치료",x,,ㅇ,"구내염, 입술통증"
-Bromeliaceae,브로멜라인,천식예방,x,,x,
-Calathea,칼라데아,공기정화,x,,x,
-Cattleya,카틀레야,,x,,x,
-Chamaedorea elegans,테이블야자,공기정화,x,,x,
-Chlorophytum comosum,접란,공기정화,x,,ㅇ,"구토, 우울, 식욕부진"
-Citrus,귤,면역력 강화,x,,ㅇ,소화불량
-Crassula ovata,크라슐라,공기정화,x,,ㅇ,"구토, 소화불량"
-Crocus,크로커스,,ㅇ,"구토, 경련",ㅇ,"구토, 설사"
-Cyclamen,시클라멘,미세먼지 제거,ㅇ,"구토, 위장장애",ㅇ,발작
-Cymbidium,심비디움,공기정화,,,,
-Dendrobium,석곡,해열작용,x,,x,
-Narcissus,수선화,혈액순환 촉진,ㅇ,위장장애,ㅇ,"구토, 설사"
-Nephrolepis exaltata,보스톤 고사리,공기정화,x,,x,
-Oncidium,온시디움,소화력 높임,x,,x,
-Opuntia,부채선인장,변비예방,x,,x,
-Paphiopedilum,파피오폐딜륨,공기정화,x,,x,
-Peperomia,페페로미아,전자파 제거,x,,x,
-Phalaenopsis,팔레놉시스,공기정화,x,,x,
-Philodendron,필로덴드론,공기정화,ㅇ,"피부염, 다량 섭취시 사망",ㅇ,"경련, 발작"
-Pilea peperomioides,필레아 페페로미오이데스,,,,,
-Saintpaulia,아프리카 제비꽃,공기 중 수분흡수,x,,x,
-Dieffenbachia,디펜바키아,"공기정화, 실내습도 조절",o,"혀와 성대에 마비증상, 피부 가려움즘",o,"설염과 위염, 침흘림, 구토"
-Dracaena,드라세나,공기정화,x,,o,"구토, 식용저하, 우울증"
-Dypsislutescens,아레카야자,"미세먼지제거, 공기정화, 전자파 차단",x,,x,
-Echeveria,에케베리아,,x,,x,
-Epiphyllum,공작선인장,,x,,x,
-Epipremnumaureum,스칸답서스,공기정화,x,,o,"구강 염즘, 구토, 삼키는 것에 어려움 호소"
-Ficus benjamina,벤자민고무나무,공기정화,x,,o,피부 트러블 유발
-Ficus elastica,인도고무나무,공기정화,o,"피부자극, 복통",o,
-Ficus lyrata,떡갈고무나무,공기정화,x,,o,
-Gymnocalycium mihanovichii,비모란선인장,,x,,x,
-Haworthia,하워르티아,,x,,x,
-Hedera helix,아이비,공기정화,o,"피부자극, 섭취시 경련과 발열 유발",o,"설사, 호흡곤란, 구토"
-Hippeastrum,아마릴리스,공기정화,o,,o,"구토, 급성복통, 경련, 심장및 호흡기 장애"
-Hoya,호야,공기정화,x,,o,
-Hyacinthus,히아신스,공기정화,o,피부자극,o,"위장장애, 고혈압"
-Mammillaria,흑선인장,,o,피부염증,o,피부염증
-Maranta,마란타,공기정화,x,,x,
-Miltoniopsis,밀토니아,,x,,x,
-Mimosa pudica,미모사,,x,,x,
-Monstera,몬스테라,공기정화,x,,o,"구강자극, 침흘림, 구토, 삼킴장애"
-Sansevieria trifasciata,산세베리아,공기정화,x,,o,"구토, 설사"
-Saxifraga stolonifera,바위취,,x,,x,
-Schefflera arboricola,홍콩야자,공기정화,x,,o,"구토, 설사, 침흘림, 삼킴 장애"
-Scindapsus pictus,스칸답서스 픽터스,공기정화,x,,x,
-Senecio rowleyanus ,녹영(콩란),공기정화,o,"피부자극, 발진, 구토, 설사",o,"구토, 설사, 침흘림, 혼수, 피부자극"
-Sinningia speciosa,글록시니아,,x,,x,
-Spathiphyllum,스파티필름,공기정화,o,"구토, 메스꺼움 및 설사",o,"설사, 탈수, 식욕부진, 구토"
-Stephanotis floribunda,마다가스카르자스민,공기정화,x,,x,
-Tradescantia zebrina,얼룩자주달개비,공기정화,o,알레르기,x,
-Yucca,유카,공기정화,x,,o,"구토, 우울, 설사, 침흘림, 발작"
-Zygocactus,게발선인장,공기정화,x,,x,
+﻿index,name_EN,name_KR,effect,toxicity(H),toxicity(H_effect),toxicity(P),toxicity(P_effect)
+1,Aglaonema,아글라오네마,공기정화,ㅇ,,ㅇ,
+2,Alocasia,알로카시아,공기정화,ㅇ,"통증유발, 호흡곤란",ㅇ,경련
+3,Aloe vera,알로에 베라,약용식물,ㅇ, 암 또는 생식 독성  유발,ㅇ,설사
+4,Anthurium,안스리움,공기정화,ㅇ,"구강자극, 구토, 피부발진",ㅇ,"위장장애, 호흡곤란"
+5,Aphelandra squarrosa,아펠란드라,공기정화,ㅇ,,ㅇ,
+6,Araucaria heterophylla,아라우카리아,공기정화,x,,x,
+7,Asparagus aethiopicus,아스파라거스 ,이뇨작용,ㅇ,"구토, 설사, 복통",x,
+8,Aspidistra elatior,엽란,공기정화,ㅇ,,,
+9,Begonia,베고니아,"뇌질환 예방, 치료",x,,ㅇ,"구내염, 입술통증"
+10,Bromeliaceae,브로멜라인,천식예방,x,,x,
+11,Calathea,칼라데아,공기정화,x,,x,
+12,Cattleya,카틀레야,,x,,x,
+13,Chamaedorea elegans,테이블야자,공기정화,x,,x,
+14,Chlorophytum comosum,접란,공기정화,x,,ㅇ,"구토, 우울, 식욕부진"
+15,Citrus,귤,면역력 강화,x,,ㅇ,소화불량
+16,Crassula ovata,크라슐라,공기정화,x,,ㅇ,"구토, 소화불량"
+17,Crocus,크로커스,,ㅇ,"구토, 경련",ㅇ,"구토, 설사"
+18,Cyclamen,시클라멘,미세먼지 제거,ㅇ,"구토, 위장장애",ㅇ,발작
+19,Cymbidium,심비디움,공기정화,,,,
+20,Dendrobium,석곡,해열작용,x,,x,
+21,Narcissus,수선화,혈액순환 촉진,ㅇ,위장장애,ㅇ,"구토, 설사"
+22,Nephrolepis exaltata,보스톤 고사리,공기정화,x,,x,
+23,Oncidium,온시디움,소화력 높임,x,,x,
+24,Opuntia,부채선인장,변비예방,x,,x,
+25,Paphiopedilum,파피오폐딜륨,공기정화,x,,x,
+26,Peperomia,페페로미아,전자파 제거,x,,x,
+27,Phalaenopsis,팔레놉시스,공기정화,x,,x,
+28,Philodendron,필로덴드론,공기정화,ㅇ,"피부염, 다량 섭취시 사망",ㅇ,"경련, 발작"
+29,Pilea peperomioides,필레아 페페로미오이데스,,,,,
+30,Saintpaulia,아프리카 제비꽃,공기 중 수분흡수,x,,x,
+31,Dieffenbachia,디펜바키아,"공기정화, 실내습도 조절",o,"혀와 성대에 마비증상, 피부 가려움즘",o,"설염과 위염, 침흘림, 구토"
+32,Dracaena,드라세나,공기정화,x,,o,"구토, 식용저하, 우울증"
+33,Dypsislutescens,아레카야자,"미세먼지제거, 공기정화, 전자파 차단",x,,x,
+34,Echeveria,에케베리아,,x,,x,
+35,Epiphyllum,공작선인장,,x,,x,
+36,Epipremnumaureum,스칸답서스,공기정화,x,,o,"구강 염즘, 구토, 삼키는 것에 어려움 호소"
+37,Ficus benjamina,벤자민고무나무,공기정화,x,,o,피부 트러블 유발
+38,Ficus elastica,인도고무나무,공기정화,o,"피부자극, 복통",o,
+39,Ficus lyrata,떡갈고무나무,공기정화,x,,o,
+40,Gymnocalycium mihanovichii,비모란선인장,,x,,x,
+41,Haworthia,하워르티아,,x,,x,
+42,Hedera helix,아이비,공기정화,o,"피부자극, 섭취시 경련과 발열 유발",o,"설사, 호흡곤란, 구토"
+43,Hippeastrum,아마릴리스,공기정화,o,,o,"구토, 급성복통, 경련, 심장및 호흡기 장애"
+44,Hoya,호야,공기정화,x,,o,
+45,Hyacinthus,히아신스,공기정화,o,피부자극,o,"위장장애, 고혈압"
+46,Mammillaria,흑선인장,,o,피부염증,o,피부염증
+47,Maranta,마란타,공기정화,x,,x,
+48,Miltoniopsis,밀토니아,,x,,x,
+49,Mimosa pudica,미모사,,x,,x,
+50,Monstera,몬스테라,공기정화,x,,o,"구강자극, 침흘림, 구토, 삼킴장애"
+51,Sansevieria trifasciata,산세베리아,공기정화,x,,o,"구토, 설사"
+52,Saxifraga stolonifera,바위취,,x,,x,
+53,Schefflera arboricola,홍콩야자,공기정화,x,,o,"구토, 설사, 침흘림, 삼킴 장애"
+54,Scindapsus pictus,스칸답서스 픽터스,공기정화,x,,x,
+55,Senecio rowleyanus ,녹영(콩란),공기정화,o,"피부자극, 발진, 구토, 설사",o,"구토, 설사, 침흘림, 혼수, 피부자극"
+56,Sinningia speciosa,글록시니아,,x,,x,
+57,Spathiphyllum,스파티필름,공기정화,o,"구토, 메스꺼움 및 설사",o,"설사, 탈수, 식욕부진, 구토"
+58,Stephanotis floribunda,마다가스카르자스민,공기정화,x,,x,
+59,Tradescantia zebrina,얼룩자주달개비,공기정화,o,알레르기,x,
+60,Yucca,유카,공기정화,x,,o,"구토, 우울, 설사, 침흘림, 발작"
+61,Zygocactus,게발선인장,공기정화,x,,x,

@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
 
 
-/*
+
     $('#submit-url').validate({
         rules: {
             'url-input': {
@@ -22,7 +22,7 @@ $(document).ready(function () {
             }
         },
     });
-*/
+
     $('#upload-file').submit(function (event) {
         if (document.getElementById("customFile").files.length == 0) {
             event.preventDefault();

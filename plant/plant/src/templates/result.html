@@ -8,22 +8,662 @@
   <thead>
     <tr>
       <th scope="col">식물 종류</th>
-      <th scope="col">확률</th>
+      <!--<th scope="col">확률</th>-->
     </tr>
   </thead>
   <tbody>
-    {%for i in range(0, 0)%}
+    {%for i in range(0, 1)%}
     <tr>
       <th scope="row">{{result.get("probs")[i][0]}}</th>
-      <td>{{result.get("probs")[i][1]}}</td>
+      <!--<td>{{result.get("probs")[i][1]}}</td>-->
     </tr>
     {%endfor%}
   </tbody>
 </table>
-</body>
-<figure class="figure">
-  <img src="data:image/png;base64, {{result.get("image")}}" class="figure-img img-thumbnail input-image">
+
+  <figure class="figure">
+      <img src="data:image/png;base64, {{result.get("image")}}" class="figure-img img-thumbnail input-image">
 </figure>
+
+    <script>
+         $(document).ready(function() {
+            $("#keyword").keyup(function() {
+                var k = $(this).val();
+                $("#plant > tbody > tr").hide();
+                var temp = $("#plant > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
+
+                $(temp).parent().show();
+            })
+        })
+  </script>
+
+  <div id="input-form">
+            영문 이름 : <input type="text" id="keyword" value="{{result.get("class")}}"/>
+        </div>
+
+<table id = "plant" class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">index</th>
+<th title="Field #2">name_EN</th>
+<th title="Field #3">name_KR</th>
+<th title="Field #4">effect</th>
+<th title="Field #5">toxicity(H)</th>
+<th title="Field #6">toxicity(H_effect)</th>
+<th title="Field #7">toxicity(P)</th>
+<th title="Field #8">toxicity(P_effect)</th>
+</tr></thead>
+<tbody><tr>
+<td align="right">1</td>
+<td>Aglaonema</td>
+<td>아글라오네마</td>
+<td>공기정화</td>
+<td>ㅇ</td>
+<td> </td>
+<td>ㅇ</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td>Alocasia</td>
+<td>알로카시아</td>
+<td>공기정화</td>
+<td>ㅇ</td>
+<td>통증유발, 호흡곤란</td>
+<td>ㅇ</td>
+<td>경련</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td>Aloe vera</td>
+<td>알로에 베라</td>
+<td>약용식물</td>
+<td>ㅇ</td>
+<td> 암 또는 생식 독성  유발</td>
+<td>ㅇ</td>
+<td>설사</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td>Anthurium</td>
+<td>안스리움</td>
+<td>공기정화</td>
+<td>ㅇ</td>
+<td>구강자극, 구토, 피부발진</td>
+<td>ㅇ</td>
+<td>위장장애, 호흡곤란</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td>Aphelandra squarrosa</td>
+<td>아펠란드라</td>
+<td>공기정화</td>
+<td>ㅇ</td>
+<td> </td>
+<td>ㅇ</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td>Araucaria heterophylla</td>
+<td>아라우카리아</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td>Asparagus aethiopicus</td>
+<td>아스파라거스 </td>
+<td>이뇨작용</td>
+<td>ㅇ</td>
+<td>구토, 설사, 복통</td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td>Aspidistra elatior</td>
+<td>엽란</td>
+<td>공기정화</td>
+<td>ㅇ</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td>Begonia</td>
+<td>베고니아</td>
+<td>뇌질환 예방, 치료</td>
+<td>x</td>
+<td> </td>
+<td>ㅇ</td>
+<td>구내염, 입술통증</td>
+</tr>
+<tr>
+<td align="right">10</td>
+<td>Bromeliaceae</td>
+<td>브로멜라인</td>
+<td>천식예방</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">11</td>
+<td>Calathea</td>
+<td>칼라데아</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">12</td>
+<td>Cattleya</td>
+<td>카틀레야</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">13</td>
+<td>Chamaedorea elegans</td>
+<td>테이블야자</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">14</td>
+<td>Chlorophytum comosum</td>
+<td>접란</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>ㅇ</td>
+<td>구토, 우울, 식욕부진</td>
+</tr>
+<tr>
+<td align="right">15</td>
+<td>Citrus</td>
+<td>귤</td>
+<td>면역력 강화</td>
+<td>x</td>
+<td> </td>
+<td>ㅇ</td>
+<td>소화불량</td>
+</tr>
+<tr>
+<td align="right">16</td>
+<td>Crassula ovata</td>
+<td>크라슐라</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>ㅇ</td>
+<td>구토, 소화불량</td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td>Crocus</td>
+<td>크로커스</td>
+<td> </td>
+<td>ㅇ</td>
+<td>구토, 경련</td>
+<td>ㅇ</td>
+<td>구토, 설사</td>
+</tr>
+<tr>
+<td align="right">18</td>
+<td>Cyclamen</td>
+<td>시클라멘</td>
+<td>미세먼지 제거</td>
+<td>ㅇ</td>
+<td>구토, 위장장애</td>
+<td>ㅇ</td>
+<td>발작</td>
+</tr>
+<tr>
+<td align="right">19</td>
+<td>Cymbidium</td>
+<td>심비디움</td>
+<td>공기정화</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">20</td>
+<td>Dendrobium</td>
+<td>석곡</td>
+<td>해열작용</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">21</td>
+<td>Narcissus</td>
+<td>수선화</td>
+<td>혈액순환 촉진</td>
+<td>ㅇ</td>
+<td>위장장애</td>
+<td>ㅇ</td>
+<td>구토, 설사</td>
+</tr>
+<tr>
+<td align="right">22</td>
+<td>Nephrolepis exaltata</td>
+<td>보스톤 고사리</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">23</td>
+<td>Oncidium</td>
+<td>온시디움</td>
+<td>소화력 높임</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">24</td>
+<td>Opuntia</td>
+<td>부채선인장</td>
+<td>변비예방</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">25</td>
+<td>Paphiopedilum</td>
+<td>파피오폐딜륨</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">26</td>
+<td>Peperomia</td>
+<td>페페로미아</td>
+<td>전자파 제거</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">27</td>
+<td>Phalaenopsis</td>
+<td>팔레놉시스</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">28</td>
+<td>Philodendron</td>
+<td>필로덴드론</td>
+<td>공기정화</td>
+<td>ㅇ</td>
+<td>피부염, 다량 섭취시 사망</td>
+<td>ㅇ</td>
+<td>경련, 발작</td>
+</tr>
+<tr>
+<td align="right">29</td>
+<td>Pilea peperomioides</td>
+<td>필레아 페페로미오이데스</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">30</td>
+<td>Saintpaulia</td>
+<td>아프리카 제비꽃</td>
+<td>공기 중 수분흡수</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">31</td>
+<td>Dieffenbachia</td>
+<td>디펜바키아</td>
+<td>공기정화, 실내습도 조절</td>
+<td>o</td>
+<td>혀와 성대에 마비증상, 피부 가려움즘</td>
+<td>o</td>
+<td>설염과 위염, 침흘림, 구토</td>
+</tr>
+<tr>
+<td align="right">32</td>
+<td>Dracaena</td>
+<td>드라세나</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>구토, 식용저하, 우울증</td>
+</tr>
+<tr>
+<td align="right">33</td>
+<td>Dypsislutescens</td>
+<td>아레카야자</td>
+<td>미세먼지제거, 공기정화, 전자파 차단</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">34</td>
+<td>Echeveria</td>
+<td>에케베리아</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">35</td>
+<td>Epiphyllum</td>
+<td>공작선인장</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">36</td>
+<td>Epipremnumaureum</td>
+<td>스칸답서스</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>구강 염즘, 구토, 삼키는 것에 어려움 호소</td>
+</tr>
+<tr>
+<td align="right">37</td>
+<td>Ficus benjamina</td>
+<td>벤자민고무나무</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>피부 트러블 유발</td>
+</tr>
+<tr>
+<td align="right">38</td>
+<td>Ficus elastica</td>
+<td>인도고무나무</td>
+<td>공기정화</td>
+<td>o</td>
+<td>피부자극, 복통</td>
+<td>o</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">39</td>
+<td>Ficus lyrata</td>
+<td>떡갈고무나무</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">40</td>
+<td>Gymnocalycium mihanovichii</td>
+<td>비모란선인장</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">41</td>
+<td>Haworthia</td>
+<td>하워르티아</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">42</td>
+<td>Hedera helix</td>
+<td>아이비</td>
+<td>공기정화</td>
+<td>o</td>
+<td>피부자극, 섭취시 경련과 발열 유발</td>
+<td>o</td>
+<td>설사, 호흡곤란, 구토</td>
+</tr>
+<tr>
+<td align="right">43</td>
+<td>Hippeastrum</td>
+<td>아마릴리스</td>
+<td>공기정화</td>
+<td>o</td>
+<td> </td>
+<td>o</td>
+<td>구토, 급성복통, 경련, 심장및 호흡기 장애</td>
+</tr>
+<tr>
+<td align="right">44</td>
+<td>Hoya</td>
+<td>호야</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">45</td>
+<td>Hyacinthus</td>
+<td>히아신스</td>
+<td>공기정화</td>
+<td>o</td>
+<td>피부자극</td>
+<td>o</td>
+<td>위장장애, 고혈압</td>
+</tr>
+<tr>
+<td align="right">46</td>
+<td>Mammillaria</td>
+<td>흑선인장</td>
+<td> </td>
+<td>o</td>
+<td>피부염증</td>
+<td>o</td>
+<td>피부염증</td>
+</tr>
+<tr>
+<td align="right">47</td>
+<td>Maranta</td>
+<td>마란타</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">48</td>
+<td>Miltoniopsis</td>
+<td>밀토니아</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">49</td>
+<td>Mimosa pudica</td>
+<td>미모사</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">50</td>
+<td>Monstera</td>
+<td>몬스테라</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>구강자극, 침흘림, 구토, 삼킴장애</td>
+</tr>
+<tr>
+<td align="right">51</td>
+<td>Sansevieria trifasciata</td>
+<td>산세베리아</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>구토, 설사</td>
+</tr>
+<tr>
+<td align="right">52</td>
+<td>Saxifraga stolonifera</td>
+<td>바위취</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">53</td>
+<td>Schefflera arboricola</td>
+<td>홍콩야자</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>구토, 설사, 침흘림, 삼킴 장애</td>
+</tr>
+<tr>
+<td align="right">54</td>
+<td>Scindapsus pictus</td>
+<td>스칸답서스 픽터스</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">55</td>
+<td>Senecio rowleyanus </td>
+<td>녹영(콩란)</td>
+<td>공기정화</td>
+<td>o</td>
+<td>피부자극, 발진, 구토, 설사</td>
+<td>o</td>
+<td>구토, 설사, 침흘림, 혼수, 피부자극</td>
+</tr>
+<tr>
+<td align="right">56</td>
+<td>Sinningia speciosa</td>
+<td>글록시니아</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">57</td>
+<td>Spathiphyllum</td>
+<td>스파티필름</td>
+<td>공기정화</td>
+<td>o</td>
+<td>구토, 메스꺼움 및 설사</td>
+<td>o</td>
+<td>설사, 탈수, 식욕부진, 구토</td>
+</tr>
+<tr>
+<td align="right">58</td>
+<td>Stephanotis floribunda</td>
+<td>마다가스카르자스민</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">59</td>
+<td>Tradescantia zebrina</td>
+<td>얼룩자주달개비</td>
+<td>공기정화</td>
+<td>o</td>
+<td>알레르기</td>
+<td>x</td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">60</td>
+<td>Yucca</td>
+<td>유카</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>o</td>
+<td>구토, 우울, 설사, 침흘림, 발작</td>
+</tr>
+<tr>
+<td align="right">61</td>
+<td>Zygocactus</td>
+<td>게발선인장</td>
+<td>공기정화</td>
+<td>x</td>
+<td> </td>
+<td>x</td>
+<td> </td>
+</tr>
+</tbody></table>
+
+</body>
 
 </html>
 
