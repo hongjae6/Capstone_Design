@@ -1,212 +1,43 @@
-# 앱 구현
-
-## MXNet을 이용한 앱 구현하기
-> https://www.popit.kr/mxnet%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B6%84%EB%A5%98-%EC%95%B1-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/
-
-## GCP App Engine을 이용한 개발
-> https://codelabs.developers.google.com/codelabs/cloud-app-engine-python/index.html?index=..%2F..index#1
-
-## Dataset searching
-### Google Dataset search
-> https://toolbox.google.com/datasetsearch
-
-### Google AI Dataset
-> https://ai.google/tools/datasets/
-
-### ImageNet 검색
-> http://www.image-net.org/ -> search plant
-
-### kaggle edible-wild-plants
-> https://www.kaggle.com/gverzea/edible-wild-plants
-
-### plant image analysis
-> https://www.plant-image-analysis.org/dataset/plant-database
-
-### garden.org
-> https://garden.org/plants/group/dogwoods/
-
-### houseplant wikipedia
-> https://en.wikipedia.org/wiki/Houseplant
-
-#### List of houseplant in en.wikipedia
-```
-Tropical and subtropical
-Aglaonema (Chinese Evergreen)
-Alocasia
-Anthurium
-Aphelandra squarrosa (Zebra Plant)
-Araucaria heterophylla (Norfolk Island Pine)
-Asparagus aethiopicus (Asparagus Fern)
-Aspidistra elatior (Cast Iron Plant)
-Begonia species and cultivars
-Bromeliaceae (Bromeliads)
-Calathea (Prayer plants)
-Chamaedorea elegans (Parlor Palm)
-Dypsis lutescens (Areca Palm)
-Chlorophytum comosum (Spider Plant)
-Citrus, compact cultivars such as the Meyer Lemon
-Cyclamen
-Dracaena
-Dieffenbachia (Dumbcane)
-Epipremnum aureum (Golden Pothos)
-Ficus benjamina (Weeping Fig)
-Ficus elastica (Rubber Plant)
-Ficus lyrata (Fiddle-leaf Fig)
-Hippeastrum
-Hoya species
-Mimosa pudica (Sensitive Plant)
-Nephrolepis exaltata cv. Bostoniensis (Boston Fern)
-Orchidaceae (The orchids)
-Cattleya and intergeneric hybrids thereof (e.g. Brassolaeliocattleya, Sophrolaeliocattleya)
-Cymbidium
-Dendrobium
-Miltoniopsis
-Oncidium
-Paphiopedilum
-Phalaenopsis
-Peperomia species
-Philodendron species
-Maranta (The Prayer Plants)
-Monstera (Swiss Cheese Plant)
-Saintpaulia (African violet)
-Sansevieria trifasciata (Mother-inlaw's tongue)
-Schefflera arboricola (Umbrella Plant)
-Sinningia speciosa (Gloxinia)
-Spathiphyllum (Peace Lily)
-Stephanotis floribunda (Madagascar Jasmine)
-Tradescantia zebrina (Purple Wandering Jew)
-Pilea peperomioides
-Scindapsus pictus (Satin pothos)
-Yucca species
-Succulents
-Note: Many of these plants are also tropical or subtropical.
-
-Aloe vera
-Cactaceae (Cacti)
-Epiphyllum (Orchid Cacti)
-Mammillaria
-Opuntia (Large genus that includes the Prickly Pear)
-Zygocactus (Christmas Cactus)
-Gymnocalycium mihanovichii (Chin Cactus)
-Crassula ovata (Jade Plant)
-Echeveria
-Haworthia
-Senecio rowleyanus (String of Pearls)
-Forced bulbs
-Note: Many forced bulbs are also temperate.
-
-Crocus
-Hyacinthus (Hyacinth)
-Narcissus (genus) (Narcissus or Daffodil)
-Temperates
-Hedera helix (English Ivy)
-Saxifraga stolonifera (Strawberry Begonia)
-
-
-========================
-Alfalfa
-Asparagus
-Blue Vervain
-Broadleaf Plantain
-Bull Thistle
-Cattail
-Chickweed
-Chicory
-Cleavers
-Coltsfoot
-Common Sow Thistle
-Common Yarrow
-Coneflower
-Creeping Charlie
-Crimson Clover
-Curly Dock
-Daisy Fleabane
-Dandellion
-Downy Yellow Violet
-Elderberry
-Evening Primrose
-Fern Leaf Yarrow
-Field Pennycress
-Fireweed
-Forget Me Not
-Garlic Mustard
-Harebell
-Henbit
-Herb Robert
-Japanese Knotweed
-Joe Pye Weed
-Knapweed
-Kudzu
-Lambs Quarters
-Mallow
-Mayapple
-Meadowsweet
-Milk Thistle
-Mullein
-New England Aster
-Partridgeberry
-Peppergrass
-Pickerelweed
-Pineapple Weed
-Prickly Pear Cactus
-Purple Deadnettle
-Queen Annes Lace
-Red Clover
-Sheep Sorrel
-Shepherds Purse
-Spring Beauty
-Sunflower
-Supplejack Vine
-Tea Plant
-Teasel
-Toothwort
-Vervain Mallow
-Wild Bee Balm
-Wild Black Cherry
-Wild Grape Vine
-Wild Leek
-Wood Sorrel
- ```
-
-
-### shutterstock
-> https://www.shutterstock.com/ko/search/indoor+plants
-
-## How to deploy it?
-  1. Collect Datasets 
-  2. Analysis in fastai
-  3. bulid a app (or web) with python
-
-
-
----
  # Web App
 1.  개요
-
+    -  ‘펫팸족’은 반려동물 ‘pet’ 과 ‘family’의 합성어로 반려동물을 가족처럼 여기는 사람들을 뜻하는 신조어입니다. 이처럼 농림축산식품부가 조사한 ‘2018 반려동물 의식조사’에 따르면 현재 반려동물 보유 가구 비율은 전체의 500만 가구를 훌쩍 넘어 23.7%에 달합니다. 
+    즉, 4가구 중 1가구는 반려동물을 기르고 있다는 의미입니다. 또한 요즘 미세먼지와 각종 공기 오염으로 집안의 공기를 정화해주고 심리적 안정을 위해 허브와 난, 꽃과 같은 다양한 식물들도 가족의 일원으로 받아들이는 ‘반려식물 족’도 늘어나고 있습니다. 그러나 반려동물과 같이 몸을 움직일 수 없는 식물들은 외부의 공격으로부터 자신을 보호하기 위해 독성으로 자신을 지키는 식물이 있습니다. 이처럼 반려동물이 독성이 있는 식물을 섭취하면 구토와 복통 등 최악의 경우 사망에 이르게 될 수 있다고 합니다. 이에 맞춰 저희는 반려동물에게 해로운 식물인지 판단해 위험성을 깨닫고 예방하기 위해 만들게 되었습니다.  
+```
+《참고자료》
+http://www.ohmynews.com/NWS_Web/view/at_pg.aspx?CNTN_CD=A0002281586
+http://www.fnnews.com/news/201903141816426458
+https://joubebe.com/bbs_detail.php?bbs_num=555&tb=news_news
+```
 
 2. 동작 환경
-    - 환경: python 3.7.3, pytorch 1.1.0, fastai 1.0.55, flask 1.0.2
+    - 환경: python 3.7.3, pytorch 1.1.0, fastai 1.0.55, flask 1.0.2, 
     - 개발 IDE : PyCharm 2019.2 (Professional)
-
-3. 파일 구조 : [Github 참조](https://github.com/dspanah/Skin-Cancer-Detection-TransferLearning-Fastai-Flask)
+    - 개발 언어 : python(fastai: 이미지 분석 관련부분, flask : 웹 렌더링 부분), html 및 javascript(웹 렌더링 및 이벤트 처리)
+    
+3. 파일 구조 : [Github fork](https://github.com/dspanah/Skin-Cancer-Detection-TransferLearning-Fastai-Flask)
 
 ![tree](mdpicture/directory_tree.jpg)
 flask 파일 
 - plant/models : 백업용 모델 저장
 - plant/src : 실행 파일이 있는 곳
-  - plant/src/models : 실제 실행하는 모델
+  - plant/src/models : 실행하는 모델이 위치
   - plant/src/static : 웹의 디자인, js 파일이 저장되있는 폴더
   - plant/src/templates : html 파일이 있는 폴더
-  - plant/src/app.py : 실제 실행하는 .py 파일
+  - plant/src/app.py :  앱 실행을 위한 .py 파일
 
 4. 실행 결과
 
 ![main](mdpicture/webserver_main.jpg)
 메인화면
 
-![result_Dracaena](mdpicture/result_Dracaena.jpg)
-예측된 결과가 정상적으로 나오는 모습
-
 ![result_Saintpaulia](mdpicture/result_Saintpaulia.jpg)
-예측된 결과가 정상적으로 나오는 모습2
+초기 웹앱 (단순한 이미지 삽입, 분석 후 식물 종을 분석하는 화면)
+
+![result_Dracaena](mdpicture/result_Dracaena.png)
+초기 웹앱의 기능을 포함하여 식물의 정보를 알 수 있게 아래의 표로 나타낼 수 있다.
+
+5. 현재 알려진 문제점
+
+![result_Dracaena](mdpicture/result_Dracaena_error.png)
+식물의 정보가 바로 나오지 않고 추가적인 작업을 해주어야 자바스크립트가 정상적으로 작동됨
 
