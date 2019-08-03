@@ -4,6 +4,7 @@ from fastai.vision import *
 from pathlib import Path
 
 from flask import Flask
+
 app = Flask(__name__)
 
 IMAGE_PATH = 'image'
@@ -12,6 +13,8 @@ MODEL_NAME = 'stage-6'
 
 
 def analysis():
+
+    return 0
 
 
 
