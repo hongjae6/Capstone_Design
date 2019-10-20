@@ -1,0 +1,26 @@
+@media screen and (min-width:36em) {
+	.ui-responsive th, .ui-responsive td {
+		text-align:center;
+	}
+}
+table {
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;
+}
+th {
+	background:linear-gradient(#333333 0%, #444444 100%);
+	color:#FFFFFF;
+	font-weight:bold;
+	height:60px;
+	font-size:20px;
+}
+td {
+	height:40px;
+}
+tr:nth-child(even) td {
+	background:#EEEEEE;
+}
+tr:nth-child(odd) td {
+	background:#FDFDFD;
+}

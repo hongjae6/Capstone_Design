@@ -1,8 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-<html>
 
+<html>
+<head>
+    <link rel="stylesheet" href="./custom_table.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript"></script>
+</head>
 <body>
+    <script>
+           $(document).ready(function() {
+              $("#keyword").keyup(function() {
+                  var k = $(this).val();
+                  $("#plant > tbody > tr").hide();
+                  var temp = $("#plant > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
+                  $(temp).parent().show();
+              })
+          })
+    </script>
+
   <p>예측한 식물 종류: <b>{{result.get("class")}}</b></p>
 <table class="table table-striped">
   <thead>
@@ -25,31 +43,20 @@
       <img src="data:image/png;base64, {{result.get("image")}}" class="figure-img img-thumbnail input-image">
 </figure>
 
-    <script>
-         $(document).ready(function() {
-            $("#keyword").keyup(function() {
-                var k = $(this).val();
-                $("#plant > tbody > tr").hide();
-                var temp = $("#plant > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
-
-                $(temp).parent().show();
-            })
-        })
-  </script>
-
   <div id="input-form">
             영문 이름 : <input type="text" id="keyword" value="{{result.get("class")}}"/>
-        </div>
+  </div>
+  <input id="submit" name="submit" type="submit" value="Submit" onclick="return first_load();">
 
-<table id = "plant" class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">index</th>
-<th title="Field #2">name_EN</th>
-<th title="Field #3">name_KR</th>
-<th title="Field #4">effect</th>
-<th title="Field #5">toxicity(H)</th>
-<th title="Field #6">toxicity(H_effect)</th>
-<th title="Field #7">toxicity(P)</th>
-<th title="Field #8">toxicity(P_effect)</th>
+<table id = "plant" class="table table-bordered table-hover table-condensed ui-responsive" data-role="table">
+<thead><tr><th title="Field #1">순번</th>
+<th title="Field #2">영문이름</th>
+<th title="Field #3">국문이름</th>
+<th title="Field #4">장점</th>
+<th title="Field #5">사람 피해유무</th>
+<th title="Field #6">사람 피해상세정보</th>
+<th title="Field #7">애완동물 피해유무</th>
+<th title="Field #8">애완동물 피해상세정보</th>
 </tr></thead>
 <tbody><tr>
 <td align="right">1</td>
