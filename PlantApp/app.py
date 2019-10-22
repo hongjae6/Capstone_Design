@@ -71,7 +71,7 @@ classes = ['UNKNOWN', 'UNKNOWN', 'Aglaonema',
  'Philodendron',
  'Pilea peperomioides',
  'Saintpaulia',
- 'Sansevieriatrifasciata',
+ 'Sansevieria trifasciata',
  'Saxifragastolonifera',
  'Scheffleraarboricola',
  'Scindapsuspictus',
@@ -145,4 +145,4 @@ if __name__ == '__main__':
     port = os.environ.get('PORT', 8080)
 
     if "prepare" not in sys.argv:
-        app.run(debug=False, host='localhost', port=port)
+        app.run(debug=False, host='0.0.0.0', port=port)

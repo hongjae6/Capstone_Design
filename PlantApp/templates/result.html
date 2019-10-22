@@ -12,15 +12,15 @@
 <body>
     <script>
            $(document).ready(function() {
-              $("#keyword").keyup(function() {
+              $("#keyword").on('keyup change onload', function() {
                   var k = $(this).val();
                   $("#plant > tbody > tr").hide();
                   var temp = $("#plant > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
                   $(temp).parent().show();
               })
           })
-    </script>
 
+    </script>
   <p>예측한 식물 종류: <b>{{result.get("class")}}</b></p>
 <table class="table table-striped">
   <thead>
@@ -46,7 +46,7 @@
   <div id="input-form">
             영문 이름 : <input type="text" id="keyword" value="{{result.get("class")}}"/>
   </div>
-  <input id="submit" name="submit" type="submit" value="Submit" onclick="return first_load();">
+  <input type='button' onclick='input_Text()' value='찾기'/>
 
 <table id = "plant" class="table table-bordered table-hover table-condensed ui-responsive" data-role="table">
 <thead><tr><th title="Field #1">순번</th>
