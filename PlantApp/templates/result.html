@@ -22,18 +22,20 @@
 
     </script>
   <p>예측한 식물 종류: <b>{{result.get("class")}}</b></p>
-<table class="table table-striped">
+<table class="table table-bordered table-hover table-condensed ui-responsive" data-role="table">
   <thead>
     <tr>
       <th scope="col">식물 종류</th>
-      <!--<th scope="col">확률</th>-->
+      <th scope="col">사람 독성여부</th>
+      <th scope="col">애완동물 독성여부</th>
     </tr>
   </thead>
   <tbody>
     {%for i in range(0, 1)%}
     <tr>
       <th scope="row">{{result.get("probs")[i][0]}}</th>
-      <!--<td>{{result.get("probs")[i][1]}}</td>-->
+      <td scope="row">{{result.get("probs")[i][1]}}</td>
+    <td scope="row"></td>
     </tr>
     {%endfor%}
   </tbody>
