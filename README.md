@@ -1,6 +1,6 @@
  # 대학 Capstone Design 자료
- - 논문 참조: Journal of Knowledge Information Technology and Systems(JKITS), Vol. 15, No. 2, pp. 167 -175, April 2020 
- - 논문명: [Vol.15, No.2] Indoor Plan ts Image Classi fication Using Deep Learning and Web Application for Providing In formation of Plants
+ - 논문 참조: Journal of Knowledge Information Technology and Systems(JKITS), Vol. 15, No. 2, pp. 167-175, April 2020 
+ - 논문명: [Vol.15, No.2] Indoor Plants Image Classification Using Deep Learning and Web Application for Providing Information of Plants
 
  -  논문 링크: https://doi.org/10.34163/jkits.2020.15.2.002
  
